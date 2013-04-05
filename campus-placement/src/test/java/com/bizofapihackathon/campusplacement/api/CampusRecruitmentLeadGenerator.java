@@ -18,9 +18,9 @@ import java.util.Map;
  * Time: 1:25 PM
  * To change this template use File | Settings | File Templates.
  */
-public class AlumniDataSourceTest {
+public class CampusRecruitmentLeadGenerator {
 
-    private static final Logger LOG = LoggerFactory.getLogger(AlumniDataSourceTest.class);
+    private static final Logger LOG = LoggerFactory.getLogger(CampusRecruitmentLeadGenerator.class);
 
     public static void main(String[] args) throws Exception {
 //        testCompanyUrl();

@@ -59,22 +59,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlumniDataSourceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bizofapihackathon/campusplacement/api/AlumniDataSourceTest.java">
+      <file leaf-file-name="CampusRecruitmentLeadGenerator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bizofapihackathon/campusplacement/api/CampusRecruitmentLeadGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="57" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.0">
+            <state line="20" column="26" selection-start="538" selection-end="568" vertical-scroll-proportion="0.027372263">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleMail.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SimpleMail.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/externalservices/SimpleMail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="54" selection-start="2043" selection-end="2053" vertical-scroll-proportion="0.9229287">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="37" column="2" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/api/DataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/api/LinkedInDataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/api/LeadDataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/externalservices/LinkedInClient.java" />
@@ -177,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/util/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/entity/CampusRecruitmentLead.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/externalservices/SimpleMail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bizofapihackathon/campusplacement/api/CampusRecruitmentLeadGenerator.java" />
       </list>
     </option>
   </component>
@@ -469,8 +467,30 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.AlumniDataSourceTest">
-    <configuration default="false" name="AlumniDataSourceTest.testGetConnections" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager">
+    <configuration default="false" name="CampusRecruitmentLeadGenerator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.bizofapihackathon.campusplacement.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bizofapihackathon.campusplacement.api.CampusRecruitmentLeadGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="campus-placement" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CampusRecruitmentLeadGenerator.testGetConnections" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
           <option name="PATTERN" value="com.bizofapihackathon.campusplacement.api.*" />
@@ -481,7 +501,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.bizofapihackathon.campusplacement.api" />
-      <option name="MAIN_CLASS_NAME" value="com.bizofapihackathon.campusplacement.api.AlumniDataSourceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.bizofapihackathon.campusplacement.api.CampusRecruitmentLeadGenerator" />
       <option name="METHOD_NAME" value="testGetConnections" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -494,28 +514,6 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AlumniDataSourceTest" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="com.bizofapihackathon.campusplacement.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bizofapihackathon.campusplacement.api.AlumniDataSourceTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="campus-placement" />
-      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -601,8 +599,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AlumniDataSourceTest.testGetConnections" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AlumniDataSourceTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CampusRecruitmentLeadGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CampusRecruitmentLeadGenerator.testGetConnections" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -656,7 +654,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="719" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="715" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -672,7 +670,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981315" sideWeight="0.49916804" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.49916804" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50083196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -756,9 +754,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/entity/CompanyPositionInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="39" column="9" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/externalservices/SimpleMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="2" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/util/Utils.java">
@@ -773,9 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/api/CompanyDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="41" column="18" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/entity/Company.java">
@@ -790,9 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/api/AlumniDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="34" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="66" column="34" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/entity/Alumni.java">
@@ -805,19 +802,10 @@
         <state line="27" column="27" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bizofapihackathon/campusplacement/api/AlumniDataSourceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bizofapihackathon/campusplacement/api/CampusRecruitmentLeadGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="57" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.0">
+        <state line="20" column="26" selection-start="538" selection-end="568" vertical-scroll-proportion="0.027372263">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bizofapihackathon/campusplacement/externalservices/SimpleMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="54" selection-start="2043" selection-end="2053" vertical-scroll-proportion="0.9229287">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
